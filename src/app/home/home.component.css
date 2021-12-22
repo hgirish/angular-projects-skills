@@ -1,0 +1,13 @@
+div#demo {
+    color:brown;
+    border-style:solid;
+    border-color:gray;
+    width:200px;
+    height:60px;
+    line-height: 30px;
+
+    font-size: large;
+    text-align: center;
+    
+}
+:host {background-color: cornsilk;}

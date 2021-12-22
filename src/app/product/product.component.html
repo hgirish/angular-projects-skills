@@ -1,0 +1,11 @@
+<h1>Product Component!</h1>
+<div>
+    <div *ngFor="let num of rNum |
+     paginate:{itemsPerPage:itemsToDisplay,currentPage:page}">
+        {{num| classify}}
+    </div>
+    <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+</div>
+<div>
+    {{rNum|json}}
+</div>
